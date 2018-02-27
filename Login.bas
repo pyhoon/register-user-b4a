@@ -1,5 +1,5 @@
 ﻿Type=Activity
-Version=4
+Version=7.3
 ModulesStructureVersion=1
 B4A=true
 @EndOfDesignText@
@@ -83,4 +83,12 @@ Sub JobDone (Job As HttpJob)
 		ToastMessageShow("Error: " & Job.ErrorMessage, True)
 	End If
 	Job.Release
+End Sub
+
+'Sub btnForgotMyPassword_Click
+'	StartActivity("Forgot")
+'End Sub
+
+Sub btnResetMyPassword_Click
+	StartActivity("Reset")
 End Sub
