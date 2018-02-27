@@ -2,8 +2,8 @@
 <manifest
 	xmlns:android="http://schemas.android.com/apk/res/android"
 	package="my.computerise.registeruser"
-	android:versionCode="2"
-	android:versionName="1.1"
+	android:versionCode="3"
+	android:versionName="1.2"
 	android:installLocation="internalOnly">
 	
 	<uses-sdk android:minSdkVersion="5" android:targetSdkVersion="14"/>
@@ -46,6 +46,20 @@
 			android:windowSoftInputMode="stateHidden"
 			android:launchMode="singleTop"
 			android:name=".member"
+			android:label="Register User"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".forgot"
+			android:label="Register User"
+			android:screenOrientation="portrait">
+		</activity>
+		<activity
+			android:windowSoftInputMode="stateHidden"
+			android:launchMode="singleTop"
+			android:name=".reset"
 			android:label="Register User"
 			android:screenOrientation="portrait">
 		</activity>
